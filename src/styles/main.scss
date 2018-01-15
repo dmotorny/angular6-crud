@@ -1,0 +1,10 @@
+@import 'reset';
+@import 'vars';
+@import 'mixins';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import 'mobile';
