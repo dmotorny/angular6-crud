@@ -1,3 +1,7 @@
+# Install dependencies
+
+<b>npm install</b>
+
 # FirebaseApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
