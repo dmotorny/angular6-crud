@@ -1,5 +1,5 @@
-# CRUD Operation 
-<i>### (Angular 5.x + Firebase DB/Hosting)</i>
+# CRUD Operations -- Contacts List 
+### <i>(Angular 5.x + Firebase DB/Hosting)</i>
 
 <b><a href="https://angular5-376fa.firebaseapp.com/">Demo</a></b>
 
