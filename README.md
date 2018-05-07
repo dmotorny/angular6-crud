@@ -5,3 +5,7 @@
 # Start server 
 
 <b>ng serve --open</b>
+
+# Firebase Hosting Deploy
+
+<b>firebase deploy</b>
