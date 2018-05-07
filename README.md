@@ -1,7 +1,7 @@
 # CRUD Operations -- Contacts List 
 ### (Angular 5.x + Firebase DB/Hosting)
 
-<b><a target="_blank" href="https://angular5-376fa.firebaseapp.com/">Demo</a></b>
+<b><a target="_blank" href="https://angular5-376fa.firebaseapp.com/">Demo</a> (Firebase hosting)</b>
 
 ## Install dependencies
 
@@ -15,6 +15,6 @@
 
 <b>ng build --prod</b>
 
-## Firebase Hosting Deploy
+## Firebase hosting deploy
 
 <b>firebase deploy</b>
