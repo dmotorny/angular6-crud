@@ -11,6 +11,10 @@
 
 <b>ng serve --open</b>
 
+## Build production 
+
+<b>ng build --prod</b>
+
 ## Firebase Hosting Deploy
 
 <b>firebase deploy</b>
