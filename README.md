@@ -3,6 +3,8 @@
 
 <b><a target="_blank" href="https://angular5-376fa.firebaseapp.com/">LIVE DEMO</a> (Firebase hosting)</b>
 
+<p>Please change the apiKey on yours in <b>./environments/environments.ts</b> and <b>./environments/environments.prod.ts</b> files to continue with your own Firebase DB, if you'll take this app as basis!</p>
+
 ## Install dependencies
 
 <b>npm install</b>
