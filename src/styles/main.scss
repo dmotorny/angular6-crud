@@ -1,8 +1,8 @@
 @import 'reset';
-@import 'vars';
-@import 'mixins';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 @import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+@import 'vars';
+@import 'mixins';
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +11,7 @@ body {
         
         > i {
             @include transform(-50%, -50%);
-            color: green;
+            color: $main_color;
             font-size: 340%;
             width: auto;
             position: absolute;

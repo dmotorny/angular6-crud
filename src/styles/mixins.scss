@@ -41,9 +41,9 @@
 }
 
 @mixin transform($first, $second) {
-    transform: translate($first, $second);
-    -moz-transform: translate($first, $second);
-    -ms-transform: translate($first, $second);
-    -webkit-transform: translate($first, $second);
-    -o-transform: translate($first, $second);
+    -moz-transform: ($first, $second);
+    -ms-transform: ($first, $second);
+    -webkit-transform: ($first, $second);
+    -o-transform: ($first, $second);
+    translate: ($first, $second);
 }
