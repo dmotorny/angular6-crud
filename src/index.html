@@ -9,6 +9,8 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root>Loading...</app-root>
+  <app-root>
+    <script>setTimeout(()=>{document.dispatchEvent(new Event('startLoad'))}, 1500)</script>
+  </app-root>
 </body>
 </html>
