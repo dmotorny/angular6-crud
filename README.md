@@ -1,5 +1,5 @@
 # Angular 6.x CRUD Operations -- Contacts List 
-![alt text](https://firebasestorage.googleapis.com/v0/b/angular6-crud.appspot.com/o/1_AyVeOIKqYMkpeZRxNOxRjg.png?alt=media&token=7f201be5-174f-40c8-84e0-fce113f8467b)
+![alt text](https://firebasestorage.googleapis.com/v0/b/angular6-crud.appspot.com/o/rsz_1_ayveoikqymkpezrxnoxrjg.png?alt=media&token=11e0983b-1051-402b-a2fe-15ce788a38e5)
 ### (Firebase DB + Hosting)
 
 <b><a target="_blank" href="https://angular6-crud.firebaseapp.com/">LIVE DEMO</a> (Firebase hosting)</b>
