@@ -1,5 +1,5 @@
 # Angular 6.x CRUD Operations -- Contacts List 
-![alt text](https://i2.wp.com/blog.mismithportfolio.com/wp-content/uploads/2017/09/firebase.png?w=1000&ssl=1)
+![alt text](https://firebasestorage.googleapis.com/v0/b/angular6-crud.appspot.com/o/1_AyVeOIKqYMkpeZRxNOxRjg.png?alt=media&token=7f201be5-174f-40c8-84e0-fce113f8467b)
 ### (Firebase DB + Hosting)
 
 <b><a target="_blank" href="https://angular6-crud.firebaseapp.com/">LIVE DEMO</a> (Firebase hosting)</b>
