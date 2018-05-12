@@ -1,23 +1,23 @@
 <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
-  <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="contactService.selectedContact.$key">
-  <div class="form_group">
-    <label>First name</label> 
-    <input class="first_name" name="firstName" #firstName="ngModel" [(ngModel)]="contactService.selectedContact.firstName" required>
-  </div>
-  <div class="form_group">
-    <label>Last name</label> 
-    <input class="last_name" name="lastName" #lastName="ngModel" [(ngModel)]="contactService.selectedContact.lastName" required>
-  </div>
-  <div class="form_group">
-    <label>Phone #</label> 
-    <input class="phone" name="phone" #phone="ngModel" [(ngModel)]="contactService.selectedContact.phone">
-  </div>
-  <div class="form_group">
-    <label>Email</label> 
-    <input class="email" name="email" #email="ngModel" [(ngModel)]="contactService.selectedContact.email" required>
-  </div>
-  <div class="form_group form_buttons">
-    <button type="submit" [disabled]="!contactForm.valid">Save</button>
-    <button type="button" (click)="resetForm(contactForm)">Reset</button>
-  </div>
+    <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="contactService.selectedContact.$key">
+    <div class="form_group">
+        <label>First name</label> 
+        <input class="first_name" name="firstName" #firstName="ngModel" [(ngModel)]="contactService.selectedContact.firstName" required>
+    </div>
+    <div class="form_group">
+        <label>Last name</label> 
+        <input class="last_name" name="lastName" #lastName="ngModel" [(ngModel)]="contactService.selectedContact.lastName" required>
+    </div>
+    <div class="form_group">
+        <label>Phone #</label> 
+        <input class="phone" name="phone" #phone="ngModel" [(ngModel)]="contactService.selectedContact.phone">
+    </div>
+    <div class="form_group">
+        <label>Email</label> 
+        <input class="email" name="email" #email="ngModel" [(ngModel)]="contactService.selectedContact.email" required>
+    </div>
+    <div class="form_group form_buttons">
+        <button type="submit" [disabled]="!contactForm.valid">Save</button>
+        <button type="button" (click)="resetForm(contactForm)">Reset</button>
+    </div>
 </form>

@@ -1,9 +1,9 @@
 <div *ngFor="let contact of contactList" class="contact_item">
     <div class="full_name_item">
-      <span class="full_name">{{ contact.firstName }} {{ contact.lastName }}</span> 
-      <div class="control">
-        <img class="update_item" src="assets/update.svg" (click)="onUpdate(contact)">
-        <img class="remove_item" src="assets/remove.svg" (click)="onRemove(contact.$key)">
-      </div>
+        <span class="full_name">{{ contact.firstName }} {{ contact.lastName }}</span> 
+        <div class="control">
+            <img class="update_item" src="assets/update.svg" (click)="onUpdate(contact)">
+            <img class="remove_item" src="assets/remove.svg" (click)="onRemove(contact.$key)">
+        </div>
     </div>
 </div>
