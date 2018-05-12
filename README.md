@@ -19,4 +19,6 @@
 
 <b>firebase deploy</b>
 
+## Note
+
 <p>Please change Firebase configuration data on yours in <b>./environments/environments.ts</b> and <b>./environments/environments.prod.ts</b> files to continue with your own Firebase DB, if you'll take this app as basis!</p>
