@@ -1,5 +1,5 @@
-# CRUD Operations -- Contacts List 
-### (Angular 6.x + Firebase DB/Hosting)
+# Angular 6.x CRUD Operations -- Contacts List 
+### (Firebase DB + Hosting)
 
 <b><a target="_blank" href="https://angular6-crud.firebaseapp.com/">LIVE DEMO</a> (Firebase hosting)</b>
 
