@@ -29,9 +29,9 @@ export class ContactComponent implements OnInit {
     /**
      * On submit 
      *
-     *@method onSubmit
-     *@param contactForm { NgForm }
-     *@returns void
+     * @method onSubmit
+     * @param contactForm { NgForm } contactForm
+     * @returns void
      */
     public onSubmit(contactForm: NgForm): void {
       
@@ -50,10 +50,10 @@ export class ContactComponent implements OnInit {
      * Resetting form 
      *
      *@method resetForm
-     *@param contactForm { NgForm }
+     *@param contactForm { NgForm } contactForm
      *@returns void
      */
-    resetForm(contactForm?: NgForm): void {
+    public resetForm(contactForm?: NgForm): void {
         if (contactForm != null) {
             contactForm.reset();
         }
