@@ -18,11 +18,23 @@ export class ContactComponent implements OnInit {
     ) { }
 
     ngOnInit() {
+        
+        // Gets data from DB
         this.contactService.getData();
+        
+        // Resets form
         this.resetForm();
     }
 
-    onSubmit(contactForm: NgForm) {
+    /**
+     * On submit 
+     *
+     *@method onSubmit
+     *@param contactForm { NgForm }
+     *@returns void
+     */
+    public onSubmit(contactForm: NgForm): void {
+      
         if (contactForm.value.$key == null) {
             this.contactService.insertContact(contactForm.value);
             this.toastr.success('Saved successfully', 'Contact added');
@@ -30,13 +42,22 @@ export class ContactComponent implements OnInit {
             this.contactService.updateContact(contactForm.value);
             this.toastr.success('Saved successfully', 'Contact updated');
         }
+      
         this.resetForm(contactForm);
     }
-
-    resetForm(contactForm?: NgForm) {
+    
+    /**
+     * Resetting form 
+     *
+     *@method resetForm
+     *@param contactForm { NgForm }
+     *@returns void
+     */
+    resetForm(contactForm?: NgForm): void {
         if (contactForm != null) {
             contactForm.reset();
         }
+      
         this.contactService.selectedContact = {
             $key: null,
             firstName: '',
