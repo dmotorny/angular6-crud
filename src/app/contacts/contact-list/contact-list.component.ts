@@ -23,6 +23,7 @@ export class ContactListComponent implements OnInit {
     ngOnInit() {
         const x = this.contactService.getData();
       
+        // Firebase object subscribing
         x.snapshotChanges().subscribe(item => {
           
             this.contactList = [];
@@ -53,7 +54,7 @@ export class ContactListComponent implements OnInit {
      * @param key { string } key
      * @returns void
      */
-    onRemove(key: string): void {
+    public onRemove(key: string): void {
         if (confirm('Your are by removing a contact! Are you sure?') === true) {
             this.contactService.removeContact(key);
             this.toastr.warning('Removed successfully', 'Contact removed', {
