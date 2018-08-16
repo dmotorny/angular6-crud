@@ -58,7 +58,7 @@ export class ContactListComponent implements OnInit {
         if (confirm('Your are by removing a contact! Are you sure?') === true) {
             this.contactService.removeContact(key);
             this.toastr.warning('Removed successfully', 'Contact removed', {
-                timeOut: 200
+                timeOut: 800
             });
         }
     }
