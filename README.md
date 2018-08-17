@@ -22,4 +22,4 @@ firebase deploy
 
 ## Note
 
-Please change Firebase configuration data on yours in <b>./environments/environments.ts and ./environments/environments.prod.ts files to continue with your own Firebase DB, if you'll take this app as basis!</p>
+Please change Firebase configuration data on yours in ./environments/environments.ts and ./environments/environments.prod.ts files to continue with your own Firebase DB, if you'll take this app as basis!</p>
