@@ -21,6 +21,8 @@ export class ContactListComponent implements OnInit {
     ) { }
 
     ngOnInit() {
+      
+        // Connecting to service
         const x = this.contactService.getData();
       
         // Firebase object subscribing
@@ -44,6 +46,7 @@ export class ContactListComponent implements OnInit {
      * @returns void
      */
     public onUpdate(cont: Contact): void {
+      
         this.contactService.selectedContact = Object.assign({}, cont);
     }
 
@@ -55,6 +58,7 @@ export class ContactListComponent implements OnInit {
      * @returns void
      */
     public onRemove(key: string): void {
+      
         if (confirm('Your are by removing a contact! Are you sure?') === true) {
             this.contactService.removeContact(key);
             this.toastr.warning('Removed successfully', 'Contact removed', {
