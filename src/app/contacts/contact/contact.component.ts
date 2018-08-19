@@ -54,6 +54,7 @@ export class ContactComponent implements OnInit {
      *@returns void
      */
     public resetForm(contactForm?: NgForm): void {
+      
         if (contactForm != null) {
             contactForm.reset();
         }
