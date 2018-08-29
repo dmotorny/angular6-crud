@@ -10,8 +10,12 @@ export class ContactService {
     selectedContact: Contact = new Contact();
     constructor(private firebase: AngularFireDatabase) { }
 
-    // Getting data from firebase db
-    getData() {
+    /**
+     * Gets data
+     * @method getData
+     * @returns AngularFireList
+     */
+    public getData(): AngularFireList {
         this.contactList = this.firebase.list('contacts');
         return this.contactList;
     }
